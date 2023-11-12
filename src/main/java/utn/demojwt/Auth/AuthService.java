@@ -1,15 +1,15 @@
 package utn.demojwt.Auth;
 
-import com.bmollaret.security_gradle_jwt.JWT.JwtService;
-import com.bmollaret.security_gradle_jwt.User.Role;
-import com.bmollaret.security_gradle_jwt.User.User;
-import com.bmollaret.security_gradle_jwt.User.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import utn.demojwt.JWT.JwtService;
+import utn.demojwt.User.Role;
+import utn.demojwt.User.User;
+import utn.demojwt.User.UserRepository;
 
 @Service
 @RequiredArgsConstructor
